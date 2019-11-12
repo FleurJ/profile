@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Rubik:400,900&display=swap');
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.2;
+}
+
+h1, h2, h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+  line-height: 1.5;
+  color: #000000;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #999;
+}
+
+a {
+  color: #00A5BD;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005670;
+}
+
+p {
+  padding-bottom: 6px;
+}
+
+.container {
+  width: 60%;
+  margin: 24px auto;
+}
+
+.card {
+  background-color: #fff;
+  margin: 24px auto;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 2px 1px 12px rgb(0,0,0, 0.2);
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+.card ul li {
+  display: inline-block;
+  padding-right: 8px;
+}
+
+.btn-bleu {
+  background-color: #00A5BD;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.btn-bleu:hover {
+  background-color: #005670;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .contaner {
+    width: 90%;
+    margin: 24px auto;
+  }
+}
